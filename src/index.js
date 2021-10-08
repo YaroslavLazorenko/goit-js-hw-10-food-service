@@ -13,8 +13,8 @@ const { menuList, body, themeSwitch } = refs;
 const setTheme = theme => {
   const themeObj = {
     classToAdd: theme,
-    classToRemove: '',
-    themeSwitchState: '',
+    classToRemove: null,
+    themeSwitchState: null,
   };
 
   switch (theme) {
